@@ -14,17 +14,16 @@ const Body = () => {
   }
   function handleSubmit(e) {
     e.preventDefault();
-    console.log(description);
     setResult(description);
     var date = new Date().toLocaleString();
     setDate(date);
-  
   }
 
   return (
     <div className="container">
       <div className="row">
-        <Form className="col-12 mt-5">
+          <h1 className="mx-auto mt-3">Enter the information!</h1>
+        <Form className="col-12 mt-3">
           <Form.Group controlId="formBasicEmail">
             <Form.Label>Description</Form.Label>
             <Form.Control
@@ -42,18 +41,25 @@ const Body = () => {
         </Form>
         <Card style={{ width: "18rem" }}>
           <ListGroup variant="flush">
-          <ListGroup.Item><h5>Description:</h5> {description}</ListGroup.Item>
-            <ListGroup.Item><h5>Date:</h5>(Click on Submit to view the date) <h5>{date}</h5></ListGroup.Item>
-
+            <ListGroup.Item>
+              <h5>Description:</h5> {description}
+            </ListGroup.Item>
+            <ListGroup.Item>
+              <h5>Date:</h5>(Click on Submit to view the date) <h5>{date}</h5>
+            </ListGroup.Item>
           </ListGroup>
         </Card>
-<div>
-<Button onClick={handleSubmit} className="success ml-5" variant="primary">
-          Submit
-        </Button>
-</div>
 
+        <div></div>
       </div>
+      <Button
+        onClick={handleSubmit}
+        style={{ width: "60%" }}
+        className="success m-4"
+        variant="primary"
+      >
+        Submit
+      </Button>
     </div>
   );
 };
