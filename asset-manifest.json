@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/React-Form-KJ-/static/css/main.68157ee8.chunk.css",
+    "main.js": "/React-Form-KJ-/static/js/main.ab2706e1.chunk.js",
+    "main.js.map": "/React-Form-KJ-/static/js/main.ab2706e1.chunk.js.map",
+    "runtime-main.js": "/React-Form-KJ-/static/js/runtime-main.ebb5d056.js",
+    "runtime-main.js.map": "/React-Form-KJ-/static/js/runtime-main.ebb5d056.js.map",
+    "static/css/2.d7c3471c.chunk.css": "/React-Form-KJ-/static/css/2.d7c3471c.chunk.css",
+    "static/js/2.0398ed6a.chunk.js": "/React-Form-KJ-/static/js/2.0398ed6a.chunk.js",
+    "static/js/2.0398ed6a.chunk.js.map": "/React-Form-KJ-/static/js/2.0398ed6a.chunk.js.map",
+    "static/js/3.e6e985a7.chunk.js": "/React-Form-KJ-/static/js/3.e6e985a7.chunk.js",
+    "static/js/3.e6e985a7.chunk.js.map": "/React-Form-KJ-/static/js/3.e6e985a7.chunk.js.map",
+    "index.html": "/React-Form-KJ-/index.html",
+    "static/css/2.d7c3471c.chunk.css.map": "/React-Form-KJ-/static/css/2.d7c3471c.chunk.css.map",
+    "static/css/main.68157ee8.chunk.css.map": "/React-Form-KJ-/static/css/main.68157ee8.chunk.css.map",
+    "static/js/2.0398ed6a.chunk.js.LICENSE.txt": "/React-Form-KJ-/static/js/2.0398ed6a.chunk.js.LICENSE.txt",
+    "static/media/UploadIcon.svg": "/React-Form-KJ-/static/media/UploadIcon.469126df.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ebb5d056.js",
+    "static/css/2.d7c3471c.chunk.css",
+    "static/js/2.0398ed6a.chunk.js",
+    "static/css/main.68157ee8.chunk.css",
+    "static/js/main.ab2706e1.chunk.js"
+  ]
+}
