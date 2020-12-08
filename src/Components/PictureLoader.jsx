@@ -19,7 +19,7 @@ function onDrop(picture){
 				withIcon={true}
 				buttonText='Choose images'
         onChange={onDrop}
-        withPreview="true"
+        withPreview={true}
 				imgExtension={['.jpg', '.gif', '.png', '.gif']}
 				maxFileSize={5242880}
 			/>
