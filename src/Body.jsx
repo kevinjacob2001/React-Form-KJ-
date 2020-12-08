@@ -1,9 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 
 import { Form, Button } from "react-bootstrap";
-
+import PictureLoader from './Components/PictureLoader';
 
 const Body = () => {
+
+    const [description,setDescription]=useState('')
+
   return (
     <div className="container">
       <div className="row">
@@ -16,14 +19,15 @@ const Body = () => {
             </Form.Text>
           </Form.Group>
 
-          
-          
+          <PictureLoader/>
+
           <Button variant="primary" type="submit">
             Submit
           </Button>
+
         </Form>
       </div>
-   {Date()}
+
     </div>
   );
 };
