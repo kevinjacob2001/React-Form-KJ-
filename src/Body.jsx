@@ -18,6 +18,7 @@ const Body = () => {
     setResult(description);
     var date = new Date().toLocaleString();
     setDate(date);
+  
   }
 
   return (
@@ -41,8 +42,9 @@ const Body = () => {
         </Form>
         <Card style={{ width: "18rem" }}>
           <ListGroup variant="flush">
-            <ListGroup.Item> {date}</ListGroup.Item>
-            <ListGroup.Item>{description}</ListGroup.Item>
+          <ListGroup.Item><h5>Description:</h5> {description}</ListGroup.Item>
+            <ListGroup.Item><h5>Date:</h5>(Click on Submit to view the date) <h5>{date}</h5></ListGroup.Item>
+
           </ListGroup>
         </Card>
 <div>
